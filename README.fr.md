@@ -764,11 +764,12 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 accounts = [
-    ('admin@teras.cd',        'admin1234!',     'admin',      None),
-    ('bank@teras.cd',         'bank1234!',      'bank',       None),
-    ('gouvernement@teras.cd', 'gov1234!',       'government', 'CG'),
-    ('entreprise@teras.cd',   'enterprise1234!','enterprise', None),
-    ('jean@teras.cd',         'jean1234!',      'individual', 'CG'),
+    # ⚠️ Remplacez <votre-mot-de-passe> par un mot de passe fort avant exécution.
+    ('admin@teras.cd',        '<votre-mot-de-passe>',     'admin',      None),
+    ('bank@teras.cd',         '<votre-mot-de-passe>',      'bank',       None),
+    ('gouvernement@teras.cd', '<votre-mot-de-passe>',       'government', 'CG'),
+    ('entreprise@teras.cd',   '<votre-mot-de-passe>','enterprise', None),
+    ('jean@teras.cd',         '<votre-mot-de-passe>',      'individual', 'CG'),
 ]
 
 for email, pwd, utype, country in accounts:
@@ -1029,7 +1030,7 @@ const NotificationPanel: React.FC = () => {
 ### 🏢 Interface Entreprise
 
 **Accès :** `user_type = 'enterprise'`  
-**Compte test :** `entreprise@teras.cd / enterprise1234!`
+**Compte test :** `entreprise@teras.cd` (mot de passe généré localement, voir `backend/create_test_*.py`)
 
 #### Structure Sidebar
 
@@ -1259,7 +1260,7 @@ class TeamMember(models.Model):
 ### 🏦 Interface Banque (13 fichiers)
 
 **Accès :** `user_type = 'bank'`  
-**Compte test :** `bank@teras.cd / bank1234!`
+**Compte test :** `bank@teras.cd` (mot de passe généré localement, voir `backend/create_test_*.py`)
 
 #### Flux Complet Crédit Banque → Client
 
@@ -1411,7 +1412,7 @@ PRODUCTS = [
 ### 👑 Interface Admin
 
 **Accès :** `user_type = 'admin'`  
-**Compte test :** `admin@teras.cd / admin1234!`
+**Compte test :** `admin@teras.cd` (mot de passe généré localement, voir `backend/create_test_*.py`)
 
 ```
 12 pages admin :
