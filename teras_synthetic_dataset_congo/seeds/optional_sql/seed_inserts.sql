@@ -1,0 +1,2 @@
+-- Scaffold SQL placeholder
+-- Les inserts reels seront generes apres validation de la structure dataset.

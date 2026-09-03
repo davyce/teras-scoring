@@ -1,0 +1,58 @@
+{
+  "profile_id": "bank_001",
+  "profile_type": "bank",
+  "bank_id": "bank_001",
+  "profile_quality": "clean",
+  "documents": [
+    {
+      "file_name": "bank_profile.json",
+      "file_type": "json",
+      "upload_order": 1,
+      "relative_path": "banks/bank_001/bank_profile.json",
+      "extraction_goal": "bank_seed_profile",
+      "expected_fields": "institution_code,address,city",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "institution_sheet.pdf",
+      "file_type": "pdf",
+      "upload_order": 2,
+      "relative_path": "banks/bank_001/institution_sheet.pdf",
+      "extraction_goal": "bank_profile_pdf",
+      "expected_fields": "bank_name,address,zones",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "credit_products.pdf",
+      "file_type": "pdf",
+      "upload_order": 3,
+      "relative_path": "banks/bank_001/credit_products.pdf",
+      "extraction_goal": "product_catalog",
+      "expected_fields": "products,rates,duration",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "coverage_note.pdf",
+      "file_type": "pdf",
+      "upload_order": 4,
+      "relative_path": "banks/bank_001/coverage_note.pdf",
+      "extraction_goal": "regional_coverage_note",
+      "expected_fields": "zones,city",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "portfolio_snapshot.xlsx",
+      "file_type": "xlsx",
+      "upload_order": 5,
+      "relative_path": "banks/bank_001/portfolio_snapshot.xlsx",
+      "extraction_goal": "portfolio_excel",
+      "expected_fields": "clients,companies,risk",
+      "document_quality": "clean",
+      "degradation_tags": []
+    }
+  ]
+}

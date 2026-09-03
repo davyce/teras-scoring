@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* === TERAS Design System (compatible Tailwind v3) === */
+
+:root {
+  --font-size: 16px;
+
+  /* Palette principale */
+  --background: #0B1220;
+  --foreground: #EAF2FF;
+  --card: #0F172A;
+  --card-foreground: #EAF2FF;
+  --popover: #0F172A;
+  --popover-foreground: #EAF2FF;
+
+  --primary: #9BD2FF;
+  --primary-foreground: #0B1220;
+
+  --secondary: #121A2C;
+  --secondary-foreground: #D9E4F7;
+
+  --muted: #1B2740;
+  --muted-foreground: #9CB5DD;
+
+  --accent: #9BD2FF;
+  --accent-foreground: #0B1220;
+
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+
+  --border: #1B2740;
+  --input: #1B2740;
+  --input-background: #0F172A;
+  --switch-background: #223556;
+
+  --ring: #9BD2FF;
+
+  /* Charts */
+  --chart-1: #9BD2FF;
+  --chart-2: #6B9FD6;
+  --chart-3: #4A7AB8;
+  --chart-4: #2A5699;
+  --chart-5: #1B3A6B;
+
+  --radius: 0.75rem;
+
+  /* Sidebar */
+  --sidebar: #0B1220;
+  --sidebar-foreground: #EAF2FF;
+  --sidebar-primary: #9BD2FF;
+  --sidebar-primary-foreground: #0B1220;
+  --sidebar-accent: #0F172A;
+  --sidebar-accent-foreground: #EAF2FF;
+  --sidebar-border: #1B2740;
+  --sidebar-ring: #9BD2FF;
+
+  /* TERAS spécifiques */
+  --teras-bg-main: #0B1220;
+  --teras-bg-surface: #0F172A;
+  --teras-border-light: #1B2740;
+  --teras-border-medium: #223556;
+  --teras-border-strong: #23314F;
+  --teras-text-primary: #EAF2FF;
+  --teras-text-secondary: #C8D5EE;
+  --teras-text-tertiary: #9CB5DD;
+  --teras-text-caption: #8CA4CF;
+  --teras-accent: #9BD2FF;
+}
+
+/* Mode sombre optionnel via classe .dark si tu veux en plus forcer un thème */
+.dark {
+  --background: #0B1220;
+  --foreground: #EAF2FF;
+}
+
+/* Layer base : couleurs globales + typo par défaut */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Typo de base (ne s'applique pas si un parent définit déjà une classe text-*) */
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 { font-size: 1.5rem; font-weight: 600; line-height: 1.5; }
+    h2 { font-size: 1.25rem; font-weight: 600; line-height: 1.5; }
+    h3 { font-size: 1.125rem; font-weight: 600; line-height: 1.5; }
+    h4 { font-size: 1rem; font-weight: 600; line-height: 1.5; }
+    p  { font-size: 1rem; font-weight: 400; line-height: 1.6; }
+    label { font-size: 1rem; font-weight: 500; line-height: 1.5; }
+    button { font-size: 1rem; font-weight: 500; line-height: 1.5; }
+    input  { font-size: 1rem; font-weight: 400; line-height: 1.5; }
+  }
+
+  html { font-size: var(--font-size); }
+}
+
+
+/* === TERAS logo animations === */
+@keyframes terasFloat {
+  0%   { transform: translateY(0) rotate(0deg); }
+  50%  { transform: translateY(-2px) rotate(0.6deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+@keyframes terasPulse {
+  0%,100% { filter: drop-shadow(0 0 0 rgba(56,189,248,0)); }
+  50%     { filter: drop-shadow(0 0 14px rgba(56,189,248,.25)); }
+}
+.teras-anim-float { animation: terasFloat 5s ease-in-out infinite; }
+.teras-anim-pulse { animation: terasPulse 3.2s ease-in-out infinite; }
+.teras-anim-hover-tilt { transition: transform .3s ease; }
+.teras-anim-hover-tilt:hover { transform: rotate(3deg) scale(1.04); }
+
+/* Respecte l’accessibilité */
+@media (prefers-reduced-motion: reduce) {
+  .teras-anim-float, .teras-anim-pulse, .teras-anim-hover-tilt { animation: none !important; transform: none !important; }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "profile_id": "bank_001",
+    "profile_type": "bank",
+    "bank_id": "bank_001",
+    "bank_name": "Banque du Fleuve Congo",
+    "institution_code": "BFC-001",
+    "address": "Boulevard Alfred Raoul, Centre-ville, Brazzaville",
+    "city": "Brazzaville",
+    "country": "CG",
+    "phone": "+242 06 110 0001",
+    "email": "contact@bfc.teras.cg",
+    "zones_covered": [
+      "Brazzaville",
+      "Owando",
+      "Oyo"
+    ],
+    "latitude": -4.269811,
+    "longitude": 15.271032,
+    "status": "active",
+    "type": "bank",
+    "government_country_visibility": "CG",
+    "expected_document_count": 5,
+    "expected_score_band": "B"
+  },
+  {
+    "profile_id": "bank_002",
+    "profile_type": "bank",
+    "bank_id": "bank_002",
+    "bank_name": "Caisse Commerciale de Brazzaville",
+    "institution_code": "CCB-002",
+    "address": "Avenue Marien Ngouabi, Centre, Pointe-Noire",
+    "city": "Pointe-Noire",
+    "country": "CG",
+    "phone": "+242 06 110 0002",
+    "email": "contact@ccb.teras.cg",
+    "zones_covered": [
+      "Pointe-Noire",
+      "Dolisie",
+      "Nkayi"
+    ],
+    "latitude": -4.781631,
+    "longitude": 11.866224,
+    "status": "active",
+    "type": "bank",
+    "government_country_visibility": "CG",
+    "expected_document_count": 5,
+    "expected_score_band": "B"
+  },
+  {
+    "profile_id": "bank_003",
+    "profile_type": "bank",
+    "bank_id": "bank_003",
+    "bank_name": "Banque Atlantique du Bassin",
+    "institution_code": "BAB-003",
+    "address": "Avenue de la Préfecture, Owando",
+    "city": "Owando",
+    "country": "CG",
+    "phone": "+242 06 110 0003",
+    "email": "contact@bab.teras.cg",
+    "zones_covered": [
+      "Owando",
+      "Impfondo",
+      "Brazzaville"
+    ],
+    "latitude": -0.485811,
+    "longitude": 15.907412,
+    "status": "active",
+    "type": "bank",
+    "government_country_visibility": "CG",
+    "expected_document_count": 5,
+    "expected_score_band": "B"
+  }
+]

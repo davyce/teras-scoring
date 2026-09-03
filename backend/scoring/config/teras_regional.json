@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "profile": "regional",
+    "version": "v0.4",
+    "notes": "TERAS Regional — profils ajustés par zones économiques (CEMAC, UEMOA)."
+  },
+  "regions": {
+    "CEMAC": {
+      "weights": {
+        "T": 0.29,
+        "E": 0.18,
+        "R": 0.23,
+        "A": 0.20,
+        "S": 0.10
+      },
+      "ranges": {
+        "transactions": [0, 180000],
+        "epargne": [0, 350000],
+        "revenus": [0, 900000],
+        "actifs": [0, 1400000],
+        "social": [0, 100]
+      }
+    },
+    "UEMOA": {
+      "weights": {
+        "T": 0.27,
+        "E": 0.19,
+        "R": 0.24,
+        "A": 0.18,
+        "S": 0.12
+      },
+      "ranges": {
+        "transactions": [0, 220000],
+        "epargne": [0, 450000],
+        "revenus": [0, 1100000],
+        "actifs": [0, 1700000],
+        "social": [0, 100]
+      }
+    }
+  }
+}

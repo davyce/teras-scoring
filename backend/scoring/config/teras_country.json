@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "profile": "country",
+    "version": "v0.5",
+    "notes": "TERAS Country — sous-profils par pays, groupés par région."
+  },
+  "regions": {
+    "CEMAC": {
+      "countries": {
+        "CG": {
+          "weights": { "T": 0.30, "E": 0.17, "R": 0.23, "A": 0.20, "S": 0.10 },
+          "ranges": {
+            "transactions": [0, 160000],
+            "epargne": [0, 320000],
+            "revenus": [0, 850000],
+            "actifs": [0, 1300000],
+            "social": [0, 100]
+          }
+        },
+        "CM": {
+          "weights": { "T": 0.28, "E": 0.18, "R": 0.24, "A": 0.20, "S": 0.10 },
+          "ranges": {
+            "transactions": [0, 190000],
+            "epargne": [0, 380000],
+            "revenus": [0, 920000],
+            "actifs": [0, 1450000],
+            "social": [0, 100]
+          }
+        }
+      }
+    },
+    "UEMOA": {
+      "countries": {
+        "CI": {
+          "weights": { "T": 0.27, "E": 0.19, "R": 0.24, "A": 0.18, "S": 0.12 },
+          "ranges": {
+            "transactions": [0, 230000],
+            "epargne": [0, 470000],
+            "revenus": [0, 1120000],
+            "actifs": [0, 1720000],
+            "social": [0, 100]
+          }
+        },
+        "SN": {
+          "weights": { "T": 0.26, "E": 0.20, "R": 0.24, "A": 0.18, "S": 0.12 },
+          "ranges": {
+            "transactions": [0, 210000],
+            "epargne": [0, 440000],
+            "revenus": [0, 1080000],
+            "actifs": [0, 1680000],
+            "social": [0, 100]
+          }
+        }
+      }
+    }
+  }
+}

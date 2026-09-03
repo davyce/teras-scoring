@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "profile": "basic",
+    "version": "v0.4",
+    "notes": "TERAS Basic (Transactions, Épargne, Revenus, Actifs, Social) — utilisé pour les particuliers et micro-entreprises locales."
+  },
+  "weights": {
+    "T": 0.28,
+    "E": 0.18,
+    "R": 0.22,
+    "A": 0.20,
+    "S": 0.12
+  },
+  "ranges": {
+    "transactions": [0, 200000],
+    "epargne": [0, 400000],
+    "revenus": [0, 800000],
+    "actifs": [0, 1500000],
+    "social": [0, 100]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "country": "CG",
+  "generated_at": "2026-04-21T16:53:17",
+  "summary": {
+    "banks": 3,
+    "users": 30,
+    "companies": 30,
+    "profiles_total": 63
+  },
+  "by_city": [
+    {
+      "city": "Brazzaville",
+      "profiles": 19
+    },
+    {
+      "city": "Dolisie",
+      "profiles": 6
+    },
+    {
+      "city": "Impfondo",
+      "profiles": 5
+    },
+    {
+      "city": "Nkayi",
+      "profiles": 6
+    },
+    {
+      "city": "Owando",
+      "profiles": 6
+    },
+    {
+      "city": "Oyo",
+      "profiles": 4
+    },
+    {
+      "city": "Pointe-Noire",
+      "profiles": 14
+    }
+  ],
+  "by_profile_type": [
+    {
+      "profile_type": "company",
+      "profiles": 30
+    },
+    {
+      "profile_type": "user",
+      "profiles": 30
+    }
+  ],
+  "by_bank": [
+    {
+      "bank_id": "bank_001",
+      "bank_name": "Banque du Fleuve Congo",
+      "profiles": 20
+    },
+    {
+      "bank_id": "bank_002",
+      "bank_name": "Caisse Commerciale de Brazzaville",
+      "profiles": 20
+    },
+    {
+      "bank_id": "bank_003",
+      "bank_name": "Banque Atlantique du Bassin",
+      "profiles": 20
+    }
+  ],
+  "by_sector": [
+    {
+      "sector_or_job": "Vendeur",
+      "profiles": 6
+    },
+    {
+      "sector_or_job": "Agent administratif",
+      "profiles": 4
+    },
+    {
+      "sector_or_job": "Entrepreneur individuel",
+      "profiles": 4
+    },
+    {
+      "sector_or_job": "Agro-transformation",
+      "profiles": 4
+    },
+    {
+      "sector_or_job": "Pharmacie locale",
+      "profiles": 4
+    },
+    {
+      "sector_or_job": "Imprimerie",
+      "profiles": 4
+    },
+    {
+      "sector_or_job": "Services numeriques",
+      "profiles": 4
+    },
+    {
+      "sector_or_job": "BTP léger",
+      "profiles": 3
+    },
+    {
+      "sector_or_job": "Maintenance technique",
+      "profiles": 3
+    },
+    {
+      "sector_or_job": "Fournitures de bureau",
+      "profiles": 3
+    },
+    {
+      "sector_or_job": "Chauffeur",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Logisticien",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Technicien",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Consultant indépendant",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Enseignant",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Infirmier",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Artisan",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Commerce et distribution",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Transport et logistique",
+      "profiles": 2
+    },
+    {
+      "sector_or_job": "Commercant",
+      "profiles": 1
+    },
+    {
+      "sector_or_job": "Fonctionnaire",
+      "profiles": 1
+    },
+    {
+      "sector_or_job": "Restauration",
+      "profiles": 1
+    }
+  ],
+  "by_risk_band": [
+    {
+      "risk_level": "high",
+      "profiles": 20
+    },
+    {
+      "risk_level": "low",
+      "profiles": 15
+    },
+    {
+      "risk_level": "medium",
+      "profiles": 25
+    }
+  ]
+}

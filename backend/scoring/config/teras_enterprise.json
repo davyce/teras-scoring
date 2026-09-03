@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "profile": "enterprise",
+    "version": "v0.4",
+    "notes": "TERAS Entreprise (Transparence fiscale, Emploi, Rétention, Activité, Stabilité sociale) — utilisé pour les PME/TPE."
+  },
+  "weights": {
+    "T": 0.30,
+    "E": 0.20,
+    "R": 0.18,
+    "A": 0.20,
+    "S": 0.12
+  },
+  "ranges": {
+    "transactions": [0, 300000],
+    "epargne": [0, 500000],
+    "revenus": [0, 1200000],
+    "actifs": [0, 2000000],
+    "social": [0, 100]
+  }
+}

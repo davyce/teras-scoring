@@ -1,0 +1,64 @@
+profile_id,profile_type,full_name_or_company_name,bank_id,city,address,sector_or_job,status,country,latitude,longitude,expected_document_count,expected_score_band,government_country_visibility
+bank_001,bank,Banque du Fleuve Congo,bank_001,Brazzaville,"Boulevard Alfred Raoul, Centre-ville, Brazzaville",Banque,active,CG,-4.269811,15.271032,5,B,CG
+bank_002,bank,Caisse Commerciale de Brazzaville,bank_002,Pointe-Noire,"Avenue Marien Ngouabi, Centre, Pointe-Noire",Banque,active,CG,-4.781631,11.866224,5,B,CG
+bank_003,bank,Banque Atlantique du Bassin,bank_003,Owando,"Avenue de la Préfecture, Owando",Banque,active,CG,-0.485811,15.907412,5,B,CG
+user_001,user,Sandra Ntsiba,bank_001,Dolisie,"Avenue de la Gare, Mbounda, Dolisie",Vendeur,under_review,CG,-4.173146,12.680097,7,D,CG
+user_002,user,Rosalie Ngatse,bank_001,Nkayi,"Avenue des Palmiers, Mpouya, Nkayi",Chauffeur,incomplete,CG,-4.206509,13.298458,6,E,CG
+user_003,user,Divine Koumba,bank_002,Brazzaville,"Avenue Matsoua, Poto-Poto, Brazzaville",Agent administratif,active,CG,-4.240035,15.222741,9,B,CG
+user_004,user,Estelle Ngoma,bank_001,Brazzaville,"Avenue Amilcar Cabral, Poto-Poto, Brazzaville",Logisticien,active,CG,-4.229057,15.217541,9,B,CG
+user_005,user,Sandra Bakala,bank_001,Impfondo,"Route du Port, Centre, Impfondo",Technicien,active,CG,1.60683,18.06497,8,C,CG
+user_006,user,Clarisse Okemba,bank_002,Oyo,"Avenue Edith Lucie, Mpili, Oyo",Entrepreneur individuel,active,CG,-1.180456,15.88307,10,A,CG
+user_007,user,Tatiana Sassou,bank_001,Owando,"Avenue de la Préfecture, Kouyou, Owando",Entrepreneur individuel,under_review,CG,-0.449328,15.911588,7,D,CG
+user_008,user,Brigitte Bifouma,bank_003,Dolisie,"Avenue du Niari, Siège, Dolisie",Technicien,active,CG,-4.217256,12.651189,9,B,CG
+user_009,user,Christian Bifouma,bank_002,Oyo,"Avenue Edith Lucie, Centre, Oyo",Agent administratif,under_review,CG,-1.184056,15.875461,7,D,CG
+user_010,user,Serge Ikounga,bank_003,Brazzaville,"Rue Mfoa, Bacongo, Brazzaville",Vendeur,active,CG,-4.256622,15.211443,8,C,CG
+user_011,user,Micheline Ngatse,bank_002,Brazzaville,"Avenue Amilcar Cabral, Bacongo, Brazzaville",Vendeur,under_review,CG,-4.231882,15.267539,7,D,CG
+user_012,user,Micheline Bokilo,bank_003,Owando,"Boulevard de la Cuvette, Kouyou, Owando",Consultant indépendant,active,CG,-0.450367,15.876258,8,C,CG
+user_013,user,Brigitte Mokoko,bank_003,Brazzaville,"Boulevard Alfred Raoul, Poto-Poto, Brazzaville",Enseignant,active,CG,-4.237685,15.265935,9,B,CG
+user_014,user,Sandra Ntsiba,bank_002,Nkayi,"Avenue de la Sucrerie, Moungounga, Nkayi",Chauffeur,active,CG,-4.205742,13.259955,10,A,CG
+user_015,user,Tatiana Ngoma,bank_001,Dolisie,"Avenue du Niari, Centre, Dolisie",Infirmier,active,CG,-4.205104,12.705483,9,B,CG
+user_016,user,Lydie Ngoma,bank_003,Nkayi,"Avenue de la Sucrerie, Centre, Nkayi",Artisan,incomplete,CG,-4.16418,13.261914,6,E,CG
+user_017,user,Herve Mambou,bank_003,Dolisie,"Avenue du Niari, Mbounda, Dolisie",Consultant indépendant,active,CG,-4.227331,12.646576,9,B,CG
+user_018,user,Divine Ikounga,bank_002,Brazzaville,"Avenue Matsoua, Makelekele, Brazzaville",Infirmier,active,CG,-4.243953,15.24888,9,B,CG
+user_019,user,Loic Mokoko,bank_001,Brazzaville,"Boulevard Alfred Raoul, Talangai, Brazzaville",Logisticien,active,CG,-4.261449,15.251561,9,B,CG
+user_020,user,Loic Bokilo,bank_001,Pointe-Noire,"Rue Kasa-Vubu, Tié-Tié, Pointe-Noire",Agent administratif,active,CG,-4.808931,11.863403,10,A,CG
+user_021,user,Herve Bifouma,bank_003,Brazzaville,"Avenue Amilcar Cabral, Bacongo, Brazzaville",Commercant,under_review,CG,-4.273627,15.264216,7,D,CG
+user_022,user,Rodolphe Okemba,bank_001,Nkayi,"Avenue de la Sucrerie, Centre, Nkayi",Vendeur,active,CG,-4.190689,13.271697,8,C,CG
+user_023,user,Prince Ngoma,bank_003,Pointe-Noire,"Avenue Marien Ngouabi, Tié-Tié, Pointe-Noire",Vendeur,active,CG,-4.769388,11.85857,10,A,CG
+user_024,user,Grace Ikounga,bank_003,Dolisie,"Avenue de la Gare, Siège, Dolisie",Agent administratif,active,CG,-4.172868,12.6932,9,B,CG
+user_025,user,Rosalie Koumba,bank_003,Brazzaville,"Avenue Matsoua, Ouenzé, Brazzaville",Artisan,incomplete,CG,-4.280873,15.2428,6,E,CG
+user_026,user,Prince Mvoula,bank_002,Brazzaville,"Boulevard Denis Sassou Nguesso, Moungali, Brazzaville",Vendeur,active,CG,-4.288592,15.238682,9,B,CG
+user_027,user,Prince Mabiala,bank_002,Brazzaville,"Boulevard Alfred Raoul, Bacongo, Brazzaville",Entrepreneur individuel,active,CG,-4.262118,15.260834,8,C,CG
+user_028,user,Loic Okemba,bank_002,Brazzaville,"Boulevard Denis Sassou Nguesso, Moungali, Brazzaville",Enseignant,incomplete,CG,-4.248817,15.213083,6,E,CG
+user_029,user,Herve Okemba,bank_001,Pointe-Noire,"Boulevard Loango, Lumumba, Pointe-Noire",Fonctionnaire,incomplete,CG,-4.769723,11.89313,6,E,CG
+user_030,user,Lydie Ndzaba,bank_002,Impfondo,"Avenue de la Likouala, Aviation, Impfondo",Entrepreneur individuel,active,CG,1.591725,18.094277,10,A,CG
+company_001,company,Groupe BTP Pointe-Noire,bank_003,Pointe-Noire,"Avenue Avenue Charles de Gaulle, Tié-Tié, Pointe-Noire",BTP léger,active,CG,-4.812943,11.84928,9,B,CG
+company_002,company,Services Maintenance Owando,bank_001,Owando,"Rue de l'Hôpital, Kouyou, Owando",Maintenance technique,incomplete,CG,-0.475805,15.921672,6,E,CG
+company_003,company,Maison Commerce Nkayi,bank_001,Nkayi,"Rue de la Bouenza, Moungounga, Nkayi",Commerce et distribution,active,CG,-4.163361,13.276147,10,B,CG
+company_004,company,Comptoir Commerce Nkayi,bank_002,Nkayi,"Avenue Avenue de la Sucrerie, Centre, Nkayi",Commerce et distribution,active,CG,-4.169512,13.255986,10,A,CG
+company_005,company,Comptoir Agro-transformation Brazzaville,bank_002,Brazzaville,"Boulevard Denis Sassou Nguesso, Bacongo, Brazzaville",Agro-transformation,under_review,CG,-4.271849,15.21576,8,D,CG
+company_006,company,Comptoir Pharmacie Owando,bank_003,Owando,"Boulevard de la Cuvette, Mpouya, Owando",Pharmacie locale,active,CG,-0.454536,15.872988,10,B,CG
+company_007,company,Atelier Pharmacie Impfondo,bank_003,Impfondo,"Avenue Avenue de la Likouala, Aviation, Impfondo",Pharmacie locale,active,CG,1.603807,18.040842,10,A,CG
+company_008,company,Alliance Imprimerie Owando,bank_003,Owando,"Boulevard de la Cuvette, Mpouya, Owando",Imprimerie,under_review,CG,-0.473127,15.897122,8,D,CG
+company_009,company,Services Imprimerie Pointe-Noire,bank_003,Pointe-Noire,"Avenue Avenue Marien Ngouabi, Lumumba, Pointe-Noire",Imprimerie,active,CG,-4.786728,11.862133,9,B,CG
+company_010,company,Maison Pharmacie Pointe-Noire,bank_001,Pointe-Noire,"Boulevard Loango, Centre-ville, Pointe-Noire",Pharmacie locale,active,CG,-4.780146,11.839416,8,C,CG
+company_011,company,Alliance Agro-transformation Brazzaville,bank_003,Brazzaville,"Avenue Avenue Amilcar Cabral, Talangai, Brazzaville",Agro-transformation,under_review,CG,-4.237611,15.238209,8,D,CG
+company_012,company,Groupe Agro-transformation Brazzaville,bank_001,Brazzaville,"Avenue Avenue Amilcar Cabral, Poto-Poto, Brazzaville",Agro-transformation,incomplete,CG,-4.257631,15.217271,6,E,CG
+company_013,company,Comptoir Maintenance Owando,bank_003,Owando,"Rue de l'Hôpital, Mpouya, Owando",Maintenance technique,active,CG,-0.48687,15.927571,10,A,CG
+company_014,company,Alliance Fournitures Brazzaville,bank_002,Brazzaville,"Boulevard Alfred Raoul, Talangai, Brazzaville",Fournitures de bureau,active,CG,-4.288485,15.262152,8,C,CG
+company_015,company,Alliance Imprimerie Brazzaville,bank_003,Brazzaville,"Avenue Avenue Matsoua, Ouenzé, Brazzaville",Imprimerie,under_review,CG,-4.239901,15.25706,8,D,CG
+company_016,company,Societe Maintenance Brazzaville,bank_002,Brazzaville,"Avenue Avenue Amilcar Cabral, Talangai, Brazzaville",Maintenance technique,active,CG,-4.276131,15.232647,8,C,CG
+company_017,company,Services Fournitures Pointe-Noire,bank_002,Pointe-Noire,"Rue Kasa-Vubu, Mongo Mpoukou, Pointe-Noire",Fournitures de bureau,active,CG,-4.792637,11.852444,9,B,CG
+company_018,company,Logistique Transport Pointe-Noire,bank_003,Pointe-Noire,"Boulevard Loango, Lumumba, Pointe-Noire",Transport et logistique,active,CG,-4.775681,11.839629,10,B,CG
+company_019,company,Comptoir Services Dolisie,bank_003,Dolisie,"Avenue Avenue de la Gare, Nkouikou, Dolisie",Services numeriques,incomplete,CG,-4.224781,12.677401,6,E,CG
+company_020,company,Groupe BTP Pointe-Noire,bank_001,Pointe-Noire,"Rue Kasa-Vubu, Lumumba, Pointe-Noire",BTP léger,active,CG,-4.786985,11.833619,8,C,CG
+company_021,company,Distribution Services Oyo,bank_002,Oyo,"Rue de l'Oubangui, Centre, Oyo",Services numeriques,incomplete,CG,-1.141605,15.859333,6,E,CG
+company_022,company,Tech Services Pointe-Noire,bank_001,Pointe-Noire,"Boulevard Loango, Centre-ville, Pointe-Noire",Services numeriques,active,CG,-4.769711,11.852823,10,B,CG
+company_023,company,Atelier Transport Oyo,bank_002,Oyo,"Boulevard de la Cuvette, Mpili, Oyo",Transport et logistique,active,CG,-1.183209,15.847363,10,A,CG
+company_024,company,Maison BTP Pointe-Noire,bank_001,Pointe-Noire,"Avenue Avenue Marien Ngouabi, Mvoumvou, Pointe-Noire",BTP léger,active,CG,-4.783107,11.856844,10,A,CG
+company_025,company,Atelier Pharmacie Pointe-Noire,bank_002,Pointe-Noire,"Avenue Avenue Charles de Gaulle, Lumumba, Pointe-Noire",Pharmacie locale,active,CG,-4.770633,11.883674,9,B,CG
+company_026,company,Alliance Agro-transformation Pointe-Noire,bank_001,Pointe-Noire,"Rue Kasa-Vubu, Tié-Tié, Pointe-Noire",Agro-transformation,under_review,CG,-4.802482,11.848688,8,D,CG
+company_027,company,Logistique Services Impfondo,bank_001,Impfondo,"Rue du Marché, Centre, Impfondo",Services numeriques,active,CG,1.623644,18.078016,9,B,CG
+company_028,company,Comptoir Imprimerie Impfondo,bank_001,Impfondo,"Rue du Marché, Plateau, Impfondo",Imprimerie,active,CG,1.60713,18.087225,8,C,CG
+company_029,company,Groupe Restauration Brazzaville,bank_002,Brazzaville,"Avenue Avenue Matsoua, Moungali, Brazzaville",Restauration,incomplete,CG,-4.258263,15.241054,6,E,CG
+company_030,company,Societe Fournitures Pointe-Noire,bank_002,Pointe-Noire,"Rue Kasa-Vubu, Tié-Tié, Pointe-Noire",Fournitures de bureau,active,CG,-4.805682,11.84704,10,B,CG

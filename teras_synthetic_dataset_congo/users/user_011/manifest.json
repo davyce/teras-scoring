@@ -1,0 +1,113 @@
+{
+  "profile_id": "user_011",
+  "profile_type": "user",
+  "bank_id": "bank_002",
+  "scenario": "en tension",
+  "profile_quality": "dirty",
+  "documents": [
+    {
+      "file_name": "profile.json",
+      "file_type": "json",
+      "upload_order": 1,
+      "relative_path": "users/user_011/profile.json",
+      "extraction_goal": "seed_profile",
+      "expected_fields": "identity,contact,login",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "identity_card.pdf",
+      "file_type": "pdf",
+      "upload_order": 2,
+      "relative_path": "users/user_011/identity_card.pdf",
+      "extraction_goal": "ocr_identity",
+      "expected_fields": "full_name,niu,date_of_birth,address",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "proof_of_address.pdf",
+      "file_type": "pdf",
+      "upload_order": 3,
+      "relative_path": "users/user_011/proof_of_address.pdf",
+      "extraction_goal": "address_validation",
+      "expected_fields": "address,city,region",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "bank_statement.pdf",
+      "file_type": "pdf",
+      "upload_order": 4,
+      "relative_path": "users/user_011/bank_statement.pdf",
+      "extraction_goal": "statement_parsing",
+      "expected_fields": "credits,debits,balance",
+      "document_quality": "dirty",
+      "degradation_tags": [
+        "alt_headers",
+        "copy_stamp",
+        "layout_shift"
+      ]
+    },
+    {
+      "file_name": "income_expenses.xlsx",
+      "file_type": "xlsx",
+      "upload_order": 5,
+      "relative_path": "users/user_011/income_expenses.xlsx",
+      "extraction_goal": "income_expense_excel",
+      "expected_fields": "income,expense,closing_balance",
+      "document_quality": "dirty",
+      "degradation_tags": [
+        "preamble_rows",
+        "blank_rows",
+        "mixed_amount_style"
+      ]
+    },
+    {
+      "file_name": "ocr_scan.png",
+      "file_type": "png",
+      "upload_order": 6,
+      "relative_path": "users/user_011/ocr_scan.png",
+      "extraction_goal": "ocr_image",
+      "expected_fields": "niu,address,phone",
+      "document_quality": "dirty",
+      "degradation_tags": [
+        "blur",
+        "tilt",
+        "low_contrast",
+        "scanner_shadow",
+        "noise"
+      ]
+    },
+    {
+      "file_name": "asset_declaration.pdf",
+      "file_type": "pdf",
+      "upload_order": 7,
+      "relative_path": "users/user_011/asset_declaration.pdf",
+      "extraction_goal": "asset_proof_pdf",
+      "expected_fields": "asset_type,estimated_value,ownership",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "asset_inventory.xlsx",
+      "file_type": "xlsx",
+      "upload_order": 8,
+      "relative_path": "users/user_011/asset_inventory.xlsx",
+      "extraction_goal": "asset_inventory_excel",
+      "expected_fields": "asset_type,estimated_value,proof_mode",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "employment_certificate.pdf",
+      "file_type": "pdf",
+      "upload_order": 9,
+      "relative_path": "users/user_011/employment_certificate.pdf",
+      "extraction_goal": "supporting_document",
+      "expected_fields": "employment_certificate",
+      "document_quality": "clean",
+      "degradation_tags": []
+    }
+  ]
+}

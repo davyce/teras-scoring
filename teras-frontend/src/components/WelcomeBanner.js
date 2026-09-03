@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+// src/components/WelcomeBanner.tsx
+export default function WelcomeBanner() {
+    return (_jsx("div", { className: "max-w-7xl mx-auto px-4 mt-4", children: _jsxs("div", { className: "rounded-2xl border border-white/10 bg-gradient-to-r from-sky-500/10 via-teal-500/10 to-indigo-500/10 p-4 md:p-5 flex items-center gap-4", children: [_jsx("div", { className: "w-10 h-10 rounded-xl bg-sky-400/20 flex items-center justify-center text-xl", children: "\uD83D\uDC4B" }), _jsxs("div", { children: [_jsxs("div", { className: "text-slate-100 text-lg md:text-xl font-medium", children: ["Bienvenue sur ", _jsx("span", { className: "text-sky-300", children: "TERAS" }), " !"] }), _jsx("p", { className: "text-slate-400 text-sm md:text-base", children: "Explorez librement la simulation de score ci-dessous. En cr\u00E9ant votre compte, vous obtiendrez votre score r\u00E9el et des recommandations IA adapt\u00E9es \u00E0 votre profil." })] })] }) }));
+}

@@ -1,0 +1,217 @@
+{
+  "country": "CG",
+  "cities": [
+    {
+      "name": "Brazzaville",
+      "region": "Brazzaville",
+      "weight": 36,
+      "latitude": -4.26336,
+      "longitude": 15.242885,
+      "neighbourhoods": ["Bacongo", "Poto-Poto", "Moungali", "Talangai", "Makelekele", "Ouenzé"],
+      "roads": ["Avenue Amilcar Cabral", "Boulevard Alfred Raoul", "Rue Mfoa", "Avenue Matsoua", "Boulevard Denis Sassou Nguesso"]
+    },
+    {
+      "name": "Pointe-Noire",
+      "region": "Pointe-Noire",
+      "weight": 24,
+      "latitude": -4.78889,
+      "longitude": 11.86361,
+      "neighbourhoods": ["Lumumba", "Tié-Tié", "Mvoumvou", "Mongo Mpoukou", "Centre-ville"],
+      "roads": ["Boulevard Loango", "Avenue Charles de Gaulle", "Avenue Marien Ngouabi", "Rue Kasa-Vubu"]
+    },
+    {
+      "name": "Dolisie",
+      "region": "Niari",
+      "weight": 10,
+      "latitude": -4.19834,
+      "longitude": 12.67312,
+      "neighbourhoods": ["Centre", "Mbounda", "Nkouikou", "Siège"],
+      "roads": ["Avenue de la Gare", "Rue de l'Industrie", "Avenue du Niari"]
+    },
+    {
+      "name": "Nkayi",
+      "region": "Bouenza",
+      "weight": 8,
+      "latitude": -4.18333,
+      "longitude": 13.28333,
+      "neighbourhoods": ["Moungounga", "Centre", "Mpouya"],
+      "roads": ["Avenue de la Sucrerie", "Rue de la Bouenza", "Avenue des Palmiers"]
+    },
+    {
+      "name": "Oyo",
+      "region": "Cuvette",
+      "weight": 7,
+      "latitude": -1.15833,
+      "longitude": 15.87056,
+      "neighbourhoods": ["Centre", "Mpili", "Ngouaka"],
+      "roads": ["Avenue Edith Lucie", "Boulevard de la Cuvette", "Rue de l'Oubangui"]
+    },
+    {
+      "name": "Impfondo",
+      "region": "Likouala",
+      "weight": 7,
+      "latitude": 1.61804,
+      "longitude": 18.05981,
+      "neighbourhoods": ["Plateau", "Centre", "Aviation"],
+      "roads": ["Route du Port", "Avenue de la Likouala", "Rue du Marché"]
+    },
+    {
+      "name": "Owando",
+      "region": "Cuvette",
+      "weight": 8,
+      "latitude": -0.48193,
+      "longitude": 15.89988,
+      "neighbourhoods": ["Centre", "Mpouya", "Kouyou"],
+      "roads": ["Avenue de la Préfecture", "Rue de l'Hôpital", "Boulevard de la Cuvette"]
+    }
+  ],
+  "banks": [
+    {
+      "name": "Banque du Fleuve Congo",
+      "institution_code": "BFC-001",
+      "address": "Boulevard Alfred Raoul, Centre-ville, Brazzaville",
+      "city": "Brazzaville",
+      "phone": "+242 06 110 0001",
+      "email": "contact@bfc.teras.cg",
+      "zones_covered": ["Brazzaville", "Owando", "Oyo"],
+      "latitude": -4.269811,
+      "longitude": 15.271032
+    },
+    {
+      "name": "Caisse Commerciale de Brazzaville",
+      "institution_code": "CCB-002",
+      "address": "Avenue Marien Ngouabi, Centre, Pointe-Noire",
+      "city": "Pointe-Noire",
+      "phone": "+242 06 110 0002",
+      "email": "contact@ccb.teras.cg",
+      "zones_covered": ["Pointe-Noire", "Dolisie", "Nkayi"],
+      "latitude": -4.781631,
+      "longitude": 11.866224
+    },
+    {
+      "name": "Banque Atlantique du Bassin",
+      "institution_code": "BAB-003",
+      "address": "Avenue de la Préfecture, Owando",
+      "city": "Owando",
+      "phone": "+242 06 110 0003",
+      "email": "contact@bab.teras.cg",
+      "zones_covered": ["Owando", "Impfondo", "Brazzaville"],
+      "latitude": -0.485811,
+      "longitude": 15.907412
+    }
+  ],
+  "names": {
+    "male_first_names": ["Christian", "Junior", "Brice", "Armel", "Blaise", "Rodolphe", "Cedric", "Ulrich", "Landry", "Prince", "Ghislain", "Patrick", "Serge", "Herve", "Loic"],
+    "female_first_names": ["Grace", "Merveille", "Chantal", "Divine", "Rosalie", "Estelle", "Brigitte", "Aurelie", "Sandra", "Lydie", "Micheline", "Tatiana", "Clarisse", "Noella", "Marlene"],
+    "last_names": ["Ngoma", "Mavoungou", "Mokoko", "Mabiala", "Ikounga", "Koumba", "Bifouma", "Ntsiba", "Mvoula", "Loutou", "Goma", "Sassou", "Okemba", "Bokilo", "Mayala", "Mambou", "Mouyabi", "Bakala", "Ngatse", "Ndzaba"]
+  },
+  "user_jobs": [
+    {
+      "title": "Fonctionnaire",
+      "status": "salaried",
+      "employers": ["Ministere des Finances", "Mairie de Brazzaville", "Prefecture de la Cuvette"]
+    },
+    {
+      "title": "Enseignant",
+      "status": "salaried",
+      "employers": ["Lycée Savorgnan", "College de Tié-Tié", "Ecole Sainte-Marie"]
+    },
+    {
+      "title": "Infirmier",
+      "status": "salaried",
+      "employers": ["Hopital de Talangai", "Clinique Loandjili", "Hopital General d'Owando"]
+    },
+    {
+      "title": "Commercant",
+      "status": "self_employed",
+      "employers": ["Marché Total", "Marché de Tié-Tié", "Marché central d'Oyo"]
+    },
+    {
+      "title": "Chauffeur",
+      "status": "self_employed",
+      "employers": ["Transport Urbain Congo", "Coopérative Taxi Kintélé", "Terminal Route Nationale"]
+    },
+    {
+      "title": "Logisticien",
+      "status": "salaried",
+      "employers": ["Port Autonome de Pointe-Noire", "Trans Bassin Services", "Congo Freight Hub"]
+    },
+    {
+      "title": "Agent administratif",
+      "status": "salaried",
+      "employers": ["Direction departementale", "Agence de l'eau", "Inspection d'académie"]
+    },
+    {
+      "title": "Entrepreneur individuel",
+      "status": "self_employed",
+      "employers": ["Activité indépendante", "Prestations locales", "Services de proximité"]
+    },
+    {
+      "title": "Technicien",
+      "status": "salaried",
+      "employers": ["Congo Maintenance", "Atelier du Littoral", "Electro Service Mfoa"]
+    },
+    {
+      "title": "Vendeur",
+      "status": "salaried",
+      "employers": ["Boutique Plateau", "Superette Mfoa", "Commerce du Port"]
+    },
+    {
+      "title": "Consultant indépendant",
+      "status": "self_employed",
+      "employers": ["Mission conseil", "Prestations numériques", "Support PME Congo"]
+    },
+    {
+      "title": "Artisan",
+      "status": "self_employed",
+      "employers": ["Atelier local", "Chantier particulier", "Coopérative artisanale"]
+    }
+  ],
+  "company_legal_forms": ["SARL", "SA", "SASU", "EI", "SNC"],
+  "company_sizes": [
+    {"label": "TPE", "min_employees": 2, "max_employees": 8},
+    {"label": "PME", "min_employees": 9, "max_employees": 35},
+    {"label": "Structure semi-formelle", "min_employees": 1, "max_employees": 5}
+  ],
+  "company_name_tokens": ["Societe", "Groupe", "Maison", "Comptoir", "Atelier", "Services", "Logistique", "Alliance", "Tech", "Distribution"],
+  "company_sectors": [
+    {"label": "Commerce et distribution", "activities": ["vente de denrées", "distribution de boissons", "grossiste local"]},
+    {"label": "Transport et logistique", "activities": ["livraison urbaine", "transport interurbain", "logistique de stock"]},
+    {"label": "BTP léger", "activities": ["travaux de finition", "maintenance de chantier", "petits ouvrages"]},
+    {"label": "Agro-transformation", "activities": ["transformation de manioc", "conditionnement alimentaire", "distribution locale"]},
+    {"label": "Restauration", "activities": ["restauration collective", "snack urbain", "service traiteur"]},
+    {"label": "Services numeriques", "activities": ["maintenance informatique", "services web", "gestion reseaux"]},
+    {"label": "Imprimerie", "activities": ["impression commerciale", "supports publicitaires", "documents administratifs"]},
+    {"label": "Maintenance technique", "activities": ["maintenance electrique", "interventions techniques", "service industriel"]},
+    {"label": "Pharmacie locale", "activities": ["parapharmacie", "distribution sanitaire", "vente OTC"]},
+    {"label": "Fournitures de bureau", "activities": ["vente B2B", "papeterie professionnelle", "equipement administratif"]}
+  ],
+  "user_scenarios": [
+    {"id": "user_stable", "label": "stable et regulier", "status": "active", "kyc_status": "approved", "risk_level": "low", "expected_score_band": "B", "expected_document_count": 9},
+    {"id": "user_healthy", "label": "profil sain", "status": "active", "kyc_status": "approved", "risk_level": "low", "expected_score_band": "A", "expected_document_count": 10},
+    {"id": "user_irregular", "label": "stable mais irregulier", "status": "active", "kyc_status": "pending", "risk_level": "medium", "expected_score_band": "C", "expected_document_count": 8},
+    {"id": "user_tension", "label": "en tension", "status": "under_review", "kyc_status": "pending", "risk_level": "high", "expected_score_band": "D", "expected_document_count": 7},
+    {"id": "user_incomplete", "label": "documentaire incomplet", "status": "incomplete", "kyc_status": "incomplete", "risk_level": "high", "expected_score_band": "E", "expected_document_count": 6},
+    {"id": "user_growth", "label": "en progression", "status": "active", "kyc_status": "approved", "risk_level": "medium", "expected_score_band": "B", "expected_document_count": 9}
+  ],
+  "company_scenarios": [
+    {"id": "company_healthy", "label": "entreprise saine", "status": "active", "administrative_status": "regular", "risk_level": "low", "expected_score_band": "A", "expected_document_count": 10},
+    {"id": "company_stable", "label": "stable mais irreguliere", "status": "active", "administrative_status": "regular", "risk_level": "medium", "expected_score_band": "B", "expected_document_count": 9},
+    {"id": "company_tension", "label": "tension de tresorerie", "status": "under_review", "administrative_status": "watch", "risk_level": "high", "expected_score_band": "D", "expected_document_count": 8},
+    {"id": "company_growth", "label": "croissance", "status": "active", "administrative_status": "regular", "risk_level": "medium", "expected_score_band": "B", "expected_document_count": 10},
+    {"id": "company_light_docs", "label": "faiblement documentee", "status": "incomplete", "administrative_status": "partial", "risk_level": "high", "expected_score_band": "E", "expected_document_count": 6},
+    {"id": "company_serious_small", "label": "petite mais serieuse", "status": "active", "administrative_status": "regular", "risk_level": "medium", "expected_score_band": "C", "expected_document_count": 8}
+  ],
+  "document_quality": {
+    "dirty_user_scenarios": ["user_irregular", "user_tension", "user_incomplete"],
+    "dirty_company_scenarios": ["company_tension", "company_light_docs"],
+    "dirty_document_targets": {
+      "user": ["bank_statement.pdf", "income_expenses.xlsx", "ocr_scan.png"],
+      "company": ["bank_statement_enterprise.pdf", "sales_register.xlsx", "purchase_register.xlsx", "ocr_scan.png"]
+    },
+    "asset_documents": {
+      "user": ["asset_declaration.pdf", "asset_inventory.xlsx"],
+      "company": ["asset_statement.pdf", "fixed_assets_register.xlsx"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+// src/pages/common/NotFoundPage.tsx
+import { Link } from "react-router-dom";
+export default function NotFoundPage() {
+    return (_jsx("div", { className: "min-h-screen flex items-center justify-center bg-slate-950 text-slate-50 px-4", children: _jsxs("div", { className: "max-w-md text-center", children: [_jsx("p", { className: "text-sm font-semibold text-sky-400 mb-2", children: "TERAS" }), _jsx("h1", { className: "text-4xl font-bold mb-3", children: "404" }), _jsx("p", { className: "text-lg font-semibold mb-2", children: "Page introuvable" }), _jsx("p", { className: "text-sm text-slate-400 mb-6", children: "La ressource que vous cherchez n'existe pas ou plus. V\u00E9rifiez l'URL ou revenez \u00E0 l'accueil." }), _jsxs("div", { className: "flex gap-3 justify-center", children: [_jsx(Link, { to: "/", className: "px-4 py-2 rounded-lg text-sm font-medium", style: { backgroundColor: "#38BDF8", color: "#020617" }, children: "Retour \u00E0 l'accueil" }), _jsx(Link, { to: "/login", className: "px-4 py-2 rounded-lg text-sm font-medium border", style: { borderColor: "#223556", color: "#EAF2FF" }, children: "Se connecter" })] })] }) }));
+}

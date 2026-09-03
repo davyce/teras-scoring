@@ -1,0 +1,42 @@
+{
+  "seed": {
+    "profile_id": "bank_001",
+    "profile_type": "bank",
+    "bank_id": "bank_001",
+    "bank_name": "Banque du Fleuve Congo",
+    "institution_code": "BFC-001",
+    "address": "Boulevard Alfred Raoul, Centre-ville, Brazzaville",
+    "city": "Brazzaville",
+    "country": "CG",
+    "phone": "+242 06 110 0001",
+    "email": "contact@bfc.teras.cg",
+    "zones_covered": [
+      "Brazzaville",
+      "Owando",
+      "Oyo"
+    ],
+    "latitude": -4.269811,
+    "longitude": 15.271032,
+    "status": "active",
+    "type": "bank",
+    "government_country_visibility": "CG",
+    "expected_document_count": 5,
+    "expected_score_band": "B"
+  },
+  "login": {
+    "profile_id": "bank_001",
+    "profile_type": "bank",
+    "bank_id": "bank_001",
+    "display_name": "Banque du Fleuve Congo",
+    "login_email": "contact@bfc.teras.cg",
+    "password": "TerasBank@BFC001",
+    "source": "bank_account",
+    "status": "updated",
+    "city": "Brazzaville"
+  },
+  "profile_quality": "clean",
+  "portfolio_summary": {
+    "users": 10,
+    "companies": 10
+  }
+}

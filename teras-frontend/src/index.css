@@ -1,0 +1,32 @@
+/* Import d'abord (sinon Vite râle) */
+@import './globals.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hauteur plein écran */
+html, body, #root {
+  height: 100%;
+}
+
+
+/* === TERAS logo animations === */
+@keyframes terasFloat {
+  0%   { transform: translateY(0) rotate(0deg); }
+  50%  { transform: translateY(-2px) rotate(0.6deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+@keyframes terasPulse {
+  0%,100% { filter: drop-shadow(0 0 0 rgba(56,189,248,0)); }
+  50%     { filter: drop-shadow(0 0 14px rgba(56,189,248,.25)); }
+}
+.teras-anim-float { animation: terasFloat 5s ease-in-out infinite; }
+.teras-anim-pulse { animation: terasPulse 3.2s ease-in-out infinite; }
+.teras-anim-hover-tilt { transition: transform .3s ease; }
+.teras-anim-hover-tilt:hover { transform: rotate(3deg) scale(1.04); }
+
+/* Respecte l’accessibilité */
+@media (prefers-reduced-motion: reduce) {
+  .teras-anim-float, .teras-anim-pulse, .teras-anim-hover-tilt { animation: none !important; transform: none !important; }
+}

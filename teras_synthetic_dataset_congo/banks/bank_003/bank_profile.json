@@ -1,0 +1,42 @@
+{
+  "seed": {
+    "profile_id": "bank_003",
+    "profile_type": "bank",
+    "bank_id": "bank_003",
+    "bank_name": "Banque Atlantique du Bassin",
+    "institution_code": "BAB-003",
+    "address": "Avenue de la Préfecture, Owando",
+    "city": "Owando",
+    "country": "CG",
+    "phone": "+242 06 110 0003",
+    "email": "contact@bab.teras.cg",
+    "zones_covered": [
+      "Owando",
+      "Impfondo",
+      "Brazzaville"
+    ],
+    "latitude": -0.485811,
+    "longitude": 15.907412,
+    "status": "active",
+    "type": "bank",
+    "government_country_visibility": "CG",
+    "expected_document_count": 5,
+    "expected_score_band": "B"
+  },
+  "login": {
+    "profile_id": "bank_003",
+    "profile_type": "bank",
+    "bank_id": "bank_003",
+    "display_name": "Banque Atlantique du Bassin",
+    "login_email": "contact@bab.teras.cg",
+    "password": "TerasBank@BAB003",
+    "source": "bank_account",
+    "status": "updated",
+    "city": "Owando"
+  },
+  "profile_quality": "clean",
+  "portfolio_summary": {
+    "users": 10,
+    "companies": 10
+  }
+}

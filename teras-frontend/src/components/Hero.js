@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { ScoreCard } from './ScoreCard';
+export function Hero({ title, subtitle, buttons, showScoreCard = true, children, }) {
+    return (_jsx("div", { className: "min-h-[70vh]", style: { backgroundColor: '#0B1220' }, children: _jsxs("div", { className: "max-w-[1200px] mx-auto px-6 py-14", children: [_jsxs("div", { className: "flex flex-col lg:flex-row items-start gap-10", children: [_jsxs("div", { className: "flex-1", children: [_jsx("h1", { className: "mb-3", style: { color: '#EAF2FF', fontWeight: 800, fontSize: '36px', lineHeight: 1.1 }, children: title }), subtitle && (_jsx("p", { className: "text-[16px] mb-6 max-w-[700px]", style: { color: '#9CB5DD' }, children: subtitle })), buttons && _jsx("div", { className: "flex gap-3 flex-wrap", children: buttons })] }), showScoreCard && (_jsx("div", { className: "w-full lg:w-[420px]", children: _jsx(ScoreCard, {}) }))] }), children && _jsx("div", { className: "mt-10", children: children })] }) }));
+}

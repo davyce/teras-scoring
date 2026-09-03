@@ -1,0 +1,6 @@
+# TERAS - dependances de test et audit local
+-r requirements.txt
+pytest>=8.2,<9
+pytest-django>=4.8,<5
+pytest-cov>=5,<7
+pip-audit>=2.7,<3

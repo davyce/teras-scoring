@@ -1,0 +1,129 @@
+{
+  "profile_id": "company_013",
+  "profile_type": "company",
+  "bank_id": "bank_003",
+  "scenario": "entreprise saine",
+  "profile_quality": "clean",
+  "documents": [
+    {
+      "file_name": "company_profile.json",
+      "file_type": "json",
+      "upload_order": 1,
+      "relative_path": "companies/company_013/company_profile.json",
+      "extraction_goal": "company_seed_profile",
+      "expected_fields": "registration,tax_id,contacts",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "bank_statement_enterprise.pdf",
+      "file_type": "pdf",
+      "upload_order": 2,
+      "relative_path": "companies/company_013/bank_statement_enterprise.pdf",
+      "extraction_goal": "enterprise_statement",
+      "expected_fields": "credits,debits,balance",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "sales_register.xlsx",
+      "file_type": "xlsx",
+      "upload_order": 3,
+      "relative_path": "companies/company_013/sales_register.xlsx",
+      "extraction_goal": "sales_excel",
+      "expected_fields": "dates,amounts,clients",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "purchase_register.xlsx",
+      "file_type": "xlsx",
+      "upload_order": 4,
+      "relative_path": "companies/company_013/purchase_register.xlsx",
+      "extraction_goal": "purchase_excel",
+      "expected_fields": "dates,amounts,suppliers",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "supplier_contract.pdf",
+      "file_type": "pdf",
+      "upload_order": 5,
+      "relative_path": "companies/company_013/supplier_contract.pdf",
+      "extraction_goal": "contract_parsing",
+      "expected_fields": "counterparty,activity,city",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "ocr_scan.png",
+      "file_type": "png",
+      "upload_order": 6,
+      "relative_path": "companies/company_013/ocr_scan.png",
+      "extraction_goal": "ocr_enterprise",
+      "expected_fields": "registration_number,tax_id,leader",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "asset_statement.pdf",
+      "file_type": "pdf",
+      "upload_order": 7,
+      "relative_path": "companies/company_013/asset_statement.pdf",
+      "extraction_goal": "enterprise_asset_pdf",
+      "expected_fields": "asset_type,estimated_value,proof_mode",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "fixed_assets_register.xlsx",
+      "file_type": "xlsx",
+      "upload_order": 8,
+      "relative_path": "companies/company_013/fixed_assets_register.xlsx",
+      "extraction_goal": "enterprise_asset_excel",
+      "expected_fields": "asset_type,estimated_value,depreciation",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "invoice_01.pdf",
+      "file_type": "pdf",
+      "upload_order": 9,
+      "relative_path": "companies/company_013/invoice_01.pdf",
+      "extraction_goal": "invoice_parsing",
+      "expected_fields": "amount,client,service",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "invoice_02.pdf",
+      "file_type": "pdf",
+      "upload_order": 10,
+      "relative_path": "companies/company_013/invoice_02.pdf",
+      "extraction_goal": "invoice_parsing",
+      "expected_fields": "amount,client,service",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "invoice_03.pdf",
+      "file_type": "pdf",
+      "upload_order": 11,
+      "relative_path": "companies/company_013/invoice_03.pdf",
+      "extraction_goal": "invoice_parsing",
+      "expected_fields": "amount,client,service",
+      "document_quality": "clean",
+      "degradation_tags": []
+    },
+    {
+      "file_name": "invoice_04.pdf",
+      "file_type": "pdf",
+      "upload_order": 12,
+      "relative_path": "companies/company_013/invoice_04.pdf",
+      "extraction_goal": "invoice_parsing",
+      "expected_fields": "amount,client,service",
+      "document_quality": "clean",
+      "degradation_tags": []
+    }
+  ]
+}

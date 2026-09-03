@@ -1,0 +1,3990 @@
+{
+  "generated_at": "2026-04-22T01:24:04",
+  "summary": {
+    "profiles": 63,
+    "uploaded": 424,
+    "skipped": 18,
+    "failed": 0,
+    "dry-run": 0
+  },
+  "results": [
+    {
+      "profile_id": "bank_001",
+      "profile_type": "bank",
+      "file_name": "institution_sheet.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document banque deja present"
+    },
+    {
+      "profile_id": "bank_001",
+      "profile_type": "bank",
+      "file_name": "credit_products.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document banque deja present"
+    },
+    {
+      "profile_id": "bank_001",
+      "profile_type": "bank",
+      "file_name": "coverage_note.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document banque deja present"
+    },
+    {
+      "profile_id": "bank_001",
+      "profile_type": "bank",
+      "file_name": "portfolio_snapshot.xlsx",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document banque deja present"
+    },
+    {
+      "profile_id": "bank_002",
+      "profile_type": "bank",
+      "file_name": "institution_sheet.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012307_institution_sheet.pdf"
+    },
+    {
+      "profile_id": "bank_002",
+      "profile_type": "bank",
+      "file_name": "credit_products.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012308_credit_products.pdf"
+    },
+    {
+      "profile_id": "bank_002",
+      "profile_type": "bank",
+      "file_name": "coverage_note.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012308_coverage_note.pdf"
+    },
+    {
+      "profile_id": "bank_002",
+      "profile_type": "bank",
+      "file_name": "portfolio_snapshot.xlsx",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012308_portfolio_snapshot.xlsx"
+    },
+    {
+      "profile_id": "bank_003",
+      "profile_type": "bank",
+      "file_name": "institution_sheet.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012310_institution_sheet.pdf"
+    },
+    {
+      "profile_id": "bank_003",
+      "profile_type": "bank",
+      "file_name": "credit_products.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012310_credit_products.pdf"
+    },
+    {
+      "profile_id": "bank_003",
+      "profile_type": "bank",
+      "file_name": "coverage_note.pdf",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012311_coverage_note.pdf"
+    },
+    {
+      "profile_id": "bank_003",
+      "profile_type": "bank",
+      "file_name": "portfolio_snapshot.xlsx",
+      "endpoint": "/api/scoring/bank/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012311_portfolio_snapshot.xlsx"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_001",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document entreprise deja present"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_002",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_003",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_004",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_005",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_006",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_007",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_008",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_009",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_010",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_011",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_012",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_013",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_014",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_015",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_016",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_017",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_018",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_019",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_020",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_021",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_022",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_023",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_024",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_025",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_026",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_027",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_028",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_029",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "bank_statement_enterprise.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "sales_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "purchase_register.xlsx",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "supplier_contract.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "invoice_01.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "invoice_02.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "invoice_03.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "company_030",
+      "profile_type": "company",
+      "file_name": "invoice_04.pdf",
+      "endpoint": "/api/scoring/enterprise/documents/upload/",
+      "status": "uploaded",
+      "http_status": "201",
+      "detail": "ok"
+    },
+    {
+      "profile_id": "user_001",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document deja present pour cet utilisateur"
+    },
+    {
+      "profile_id": "user_001",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document deja present pour cet utilisateur"
+    },
+    {
+      "profile_id": "user_001",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document deja present pour cet utilisateur"
+    },
+    {
+      "profile_id": "user_001",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document deja present pour cet utilisateur"
+    },
+    {
+      "profile_id": "user_001",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document deja present pour cet utilisateur"
+    },
+    {
+      "profile_id": "user_001",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "skipped",
+      "http_status": "",
+      "detail": "Document deja present pour cet utilisateur"
+    },
+    {
+      "profile_id": "user_002",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012332_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_002",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012332_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_002",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012332_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_002",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012333_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_002",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012333_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_003",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012334_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_004",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012335_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_005",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012336_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_006",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012337_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_007",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012338_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_007",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012338_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_007",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012338_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_007",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012338_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_007",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012338_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_007",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012338_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012339_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012339_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012339_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012339_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012339_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012339_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_008",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012340_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_009",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012340_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_009",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012340_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_009",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012341_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_009",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012341_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_009",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012341_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_009",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012341_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012341_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012342_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012342_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012342_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012342_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012342_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_010",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012342_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_011",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012343_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_011",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012343_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_011",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012343_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_011",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012343_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_011",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012343_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_011",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012343_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_012",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012344_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_013",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012345_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_014",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012346_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_015",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012347_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_016",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012348_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_016",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012349_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_016",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012349_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_016",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012349_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_016",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012349_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_017",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012350_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_018",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012351_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012352_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012352_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012352_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012352_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012352_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_019",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_020",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012353_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_021",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012354_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_021",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012354_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_021",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012354_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_021",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012354_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_021",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012354_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_021",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012354_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_022",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012355_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012356_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012356_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012356_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_023",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012357_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_024",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_025",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_025",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_025",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_025",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_025",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012358_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_026",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012359_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012400_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012400_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012400_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012400_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012400_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012400_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_027",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012401_budget_note.pdf"
+    },
+    {
+      "profile_id": "user_028",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012401_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_028",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012401_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_028",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012401_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_028",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012401_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_028",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012401_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_029",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012402_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_029",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012402_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_029",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012402_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_029",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012402_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_029",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012403_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "identity_card.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012403_identity_card.pdf"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "proof_of_address.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012403_proof_of_address.pdf"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "bank_statement.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012403_bank_statement.pdf"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "income_expenses.xlsx",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012404_income_expenses.xlsx"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "ocr_scan.png",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012404_ocr_scan.png"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "employment_certificate.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012404_employment_certificate.pdf"
+    },
+    {
+      "profile_id": "user_030",
+      "profile_type": "user",
+      "file_name": "budget_note.pdf",
+      "endpoint": "/api/scoring/user/documents/upload/",
+      "status": "uploaded",
+      "http_status": "200",
+      "detail": "20260422_012404_budget_note.pdf"
+    }
+  ]
+}

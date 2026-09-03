@@ -1,0 +1,42 @@
+{
+  "seed": {
+    "profile_id": "bank_002",
+    "profile_type": "bank",
+    "bank_id": "bank_002",
+    "bank_name": "Caisse Commerciale de Brazzaville",
+    "institution_code": "CCB-002",
+    "address": "Avenue Marien Ngouabi, Centre, Pointe-Noire",
+    "city": "Pointe-Noire",
+    "country": "CG",
+    "phone": "+242 06 110 0002",
+    "email": "contact@ccb.teras.cg",
+    "zones_covered": [
+      "Pointe-Noire",
+      "Dolisie",
+      "Nkayi"
+    ],
+    "latitude": -4.781631,
+    "longitude": 11.866224,
+    "status": "active",
+    "type": "bank",
+    "government_country_visibility": "CG",
+    "expected_document_count": 5,
+    "expected_score_band": "B"
+  },
+  "login": {
+    "profile_id": "bank_002",
+    "profile_type": "bank",
+    "bank_id": "bank_002",
+    "display_name": "Caisse Commerciale de Brazzaville",
+    "login_email": "contact@ccb.teras.cg",
+    "password": "TerasBank@CCB002",
+    "source": "bank_account",
+    "status": "updated",
+    "city": "Pointe-Noire"
+  },
+  "profile_quality": "clean",
+  "portfolio_summary": {
+    "users": 10,
+    "companies": 10
+  }
+}
