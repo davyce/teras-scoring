@@ -1,4 +1,6 @@
-🇬🇧 **English** · [🇫🇷 Français](README.fr.md)
+<p align="center"><img src="docs/assets/logo.svg" width="112" alt="TERAS logo" /></p>
+
+<p align="center">🇬🇧 <b>English</b> · <a href="README.fr.md">🇫🇷 Français</a></p>
 
 # 🏦 TERAS — Explainable Credit Intelligence for Central Africa
 
